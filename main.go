@@ -19,6 +19,7 @@ var (
 	sudCount = 0
 )
 
+// main is the entry point of the program that manages the flow of cars from the Nord and Sud directions.
 func main() {
 	I(pont, 1)
 	I(mutexNord, 1)
